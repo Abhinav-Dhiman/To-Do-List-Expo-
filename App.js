@@ -61,7 +61,7 @@ export default function App() {
         />
         <TouchableOpacity onPress={handlePress}>
           <View style={styles.addWrapper}>
-            <Text style={styles.addText}>+</Text>
+            <Text style={styles.addText}>ADD</Text>
           </View>
         </TouchableOpacity>
       </KeyboardAvoidingView>
@@ -72,13 +72,14 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor:'#edf2fb'
+    backgroundColor: "#303030",
   },
   taskWrapper: {
     paddingTop: 80,
     paddingHorizontal: 20,
   },
   title: {
+    color: "white",
     fontSize: 24,
     fontWeight: "bold",
   },
@@ -106,7 +107,7 @@ const styles = StyleSheet.create({
   addWrapper: {
     width: 60,
     height: 60,
-    backgroundColor: "#123",
+    backgroundColor: "#fff",
     borderRadius: 60,
     justifyContent: "center",
     alignItems: "center",
@@ -114,6 +115,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
   },
   addText: {
-    color: "white",
+    color: "coral",
+    fontWeight:'bold'
   },
 });
