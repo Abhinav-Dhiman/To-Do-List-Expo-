@@ -72,7 +72,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#E8EBED",
+    backgroundColor:'#edf2fb'
   },
   taskWrapper: {
     paddingTop: 80,
@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15,
     backgroundColor: "#FFF",
     borderRadius: 60,
-    borderColor: "grey",
+    borderColor: "whitesmoke",
     borderWidth: 1,
     width: 250,
     marginLeft: 8,
